@@ -1,0 +1,353 @@
+
+
+    /* general styles */
+
+
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url(../fonts/MyriadPro-Regular.ttf);
+   }
+body {
+    font-family: MyriadPro-Regular;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.text-align-left {
+    text-align: left;
+}
+.text-align-center {
+    text-align: center;
+}
+.text-align-right {
+    text-align: right;
+}
+.strong, .bold {
+    font-weight: bold;
+}
+.d-list-item-block {
+    display: list-item-block;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.m-0 {
+    margin: 0;
+}
+.m-auto {
+    margin: auto;
+}
+.p-0 {
+    padding: 0;
+}
+.p-auto {
+    padding: auto;
+}
+.w-100 {
+    width: 100%;
+}
+.h-100 {
+    height: 100%;
+}
+.round {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 15px;
+}
+
+
+    /* block 1 */
+
+
+.header .container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #edeced;
+}
+.header .logo {
+    float: left;
+}
+.header nav {
+    float: right;
+}
+.header nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+.header .call {
+    font-size: 25px;
+    color: #008fc7;
+    margin-bottom: 0;
+}
+.header .adress {
+    font-size: 15px;
+    color: #000000;
+}
+.header .container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    /* block 2 */
+
+
+.banner h1 {
+    font-size: 41px;
+    color: #1294cb;
+}
+.banner h2 {
+    font-size: 24px;
+}
+.banner form input,
+.banner form button {
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    color: #000;
+}
+.banner button,
+.btn {
+    cursor: pointer;
+    background: #ffce00;
+    border-radius: 8px;
+    color: #000;
+    font-size: 20px;
+    padding: 3.5px 15px;
+    box-shadow: none;
+    outline: none;
+}
+.banner {
+    background-image: url('../img/pict002.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 654px;
+}
+.banner .block-top {
+    position: relative;
+    background-color: rgba(255,255,255,.83);
+}
+.banner .block-top:before,
+.banner .block-top:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.83);
+}
+.banner .block-top:before {
+   left: -100%;
+}
+.banner .block-top:after {
+    right: -100%;
+}
+.banner .block-center form .for-name label:before,
+.banner .block-center form .for-tel label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner .block-center form .for-name label:before {
+    background-image: url('../img/pict021.png');
+}
+.banner .block-center form .for-tel label:before {
+    background-image: url('../img/pict022.png');
+}
+.banner .block-center form .for-name input,
+.banner .block-center form .for-tel input {
+    padding: 5.5px 15px 5.5px 35px;
+}
+.banner .block-center {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.banner .block-center form {
+    background: rgba(0,143,199,.68);
+    border-radius: 8px;
+}
+
+
+    /* block 3 */
+
+.advantages {
+    background: #1294cb;
+    color: #fff;
+}
+.advantages .for-img {
+    height: 120px;
+}
+.advantages p {
+    font-size: 24px;
+}
+
+
+    /* block 4 */
+
+
+.answer {
+    background-image: url('../img/pict009.png');
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+}
+.answer h2 {
+    background-color: rgba(255,255,255,.83);
+    padding: 15px;
+    color: #1294cb;
+    font-size: 36px;
+    height: 86px;
+}
+.answer-block {
+    background: rgba(0,143,199,.68);
+    border-radius: 8px;
+    width: 650px;
+    height: 400px;
+    margin: 26px 0 40px 66px;
+}
+.answer-block li {
+    background: url(../img/pict012.png) 0 50% no-repeat;
+    list-style-type: none;
+    padding: 5px 0 0 60px;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 9px;
+}
+
+
+    /* block 5 */
+
+
+.attendance {
+    background: url(../img/pict013.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 986px;
+}
+.attendance h2 {
+    font-size: 45px;
+    color: #1294cb;
+}
+.attendance p {
+    font-size: 25px;
+}
+
+
+    /* block 6 */
+
+
+.personal h2 {
+    font-size: 45px;
+    color: #1294cb;
+}
+.personal p {
+    font-size: 30px;
+}
+
+
+    /* block 7 */
+
+
+.personal h2 {
+    font-size: 45px;
+    color: #1294cb;
+}
+.personal h2, h3 {
+    font-weight: bold;
+}
+.personal .wrapper img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 15px;
+}
+
+
+    /* block 7 */
+
+
+.contacts #name, #phone, #tap {
+    border-radius: 10px;
+    width: 250px;
+    padding-left: 30px;
+}
+.contacts {
+    background-color: #52b3d9;
+    padding: 15px;
+}
+.contacts h2 {
+    font-size: 35px;
+    color: #fff;
+}
+.contacts p {
+    font-size: 20px;
+    margin: 10px;
+}
+.contacts button,
+.btn {
+    cursor: pointer;
+    background: #ffce00;
+    border-radius: 8px;
+    color: #000;
+    font-size: 20px;
+    padding: 3.5px 15px;
+    box-shadow: none;
+    outline: none;
+    font-weight: bold;
+}
+.contacts form input,
+.contacts form button {
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    color: #000;
+}
+.contacts .block-button form .for-name label:before,
+.contacts .block-button form .for-tel label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contacts .block-button form .for-name label:before {
+    background-image: url('../img/pict021.png');
+}
+.contacts .block-button form .for-tel label:before {
+    background-image: url('../img/pict022.png');
+}
+.contacts .block-button form .for-name input,
+.contacts .block-button form .for-tel input {
+    padding: 3.5px 15px 3.5px 45px;
+}
+
+
+    /* block 8 */
+
+
+#map {
+  height: 610px;
+  width: 100%;
+  frameborder: 0;
+  border: 0; 
+  allowfullscreen: ""; 
+  aria-hidden: false;
+  tabindex: 0;
+}
+
